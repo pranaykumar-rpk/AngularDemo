@@ -9,7 +9,7 @@ import { RestService } from '../rest.service';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
+  page: number = 1;
   
   employees : Employees[] = [];
   

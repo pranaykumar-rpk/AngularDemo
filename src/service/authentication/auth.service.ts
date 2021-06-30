@@ -16,7 +16,7 @@ export class AuthService {
     if(this.checkCredentials(credentials)){
       this.print("Login Success");
       this.isAuthenticated = true;
-      this.router.navigate(['home']);
+      this.router.navigate(['admin/home']);
       return true;
     }else{
       this.print("Login Failure");

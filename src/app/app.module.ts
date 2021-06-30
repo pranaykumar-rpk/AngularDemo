@@ -5,11 +5,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { HomeComponent } from './home/home.component';
+import { HomeComponent } from './admin/home/home.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 
 import { NgxPaginationModule } from 'ngx-pagination';
-import { StatisticsComponent } from './statistics/statistics.component';
+import { StatisticsComponent } from './admin/profile/profile.component';
 
 @NgModule({
   declarations: [

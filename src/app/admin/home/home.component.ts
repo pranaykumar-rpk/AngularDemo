@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Employees } from '../Models/Employees';
-import { RestService } from '../rest.service';
+import { Employees } from '../../Models/Employees';
+import { RestService } from '../../rest.service';
 
 
 @Component({

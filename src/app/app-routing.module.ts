@@ -1,15 +1,11 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { AuthGuardGuard } from './guards/auth-guard.guard';
-import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { StatisticsComponent } from './statistics/statistics.component';
-
 
 const routes: Routes = [
-  {path:'home',component: HomeComponent, canActivate:[AuthGuardGuard]},
   {path:'',component: LoginComponent},
-  {path:'profile',component: StatisticsComponent},
+  //{path:'',component: HomeComponent},
+  {path:"admin",loadChildren:()=> import('./admin/admin.module').then(mod=>mod.AdminModule)}
 ];
 
 @NgModule({

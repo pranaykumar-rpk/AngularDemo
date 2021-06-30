@@ -9,7 +9,7 @@ import { StatisticsComponent } from './statistics/statistics.component';
 const routes: Routes = [
   {path:'home',component: HomeComponent, canActivate:[AuthGuardGuard]},
   {path:'',component: LoginComponent},
-  {path:'profile',component: StatisticsComponent}
+  {path:'profile',component: StatisticsComponent},
 ];
 
 @NgModule({

@@ -1,52 +1,75 @@
 {
-  "employees":[
-      {
-          "id":1,
-          "firstName":"Pranay",
-          "lastName":"Ragi",
-          "email":"pranay@gmail.com",
-          "mobile":"+917032393942",
-          "salary":"Best in Industry"
-      },
-      {
-          "id":2,
-          "firstName":"Revathi",
-          "lastName":"Chevuri",
-          "email":"revathi@gmail.com",
-          "mobile":"+919999999999",
-          "salary":"Best in Industry"
-      },
-      {
-          "id":3,
-          "firstName":"Lakshmi",
-          "lastName":"Vinitha",
-          "email":"lakshmi@gmail.com",
-          "mobile":"+918888888888",
-          "salary":"Best in Industry"
-      },
-      {
-        "id":1,
-        "firstName":"Pranay",
-        "lastName":"Ragi",
-        "email":"pranay@gmail.com",
-        "mobile":"+917032393942",
-        "salary":"Best in Industry"
+  "employees": [{
+      "id": 1,
+      "firstName": "Pranay",
+      "lastName": "Ragi",
+      "email": "pranay@gmail.com",
+      "mobile": "+917032393942",
+      "salary": "3.36LPA"
     },
     {
-        "id":2,
-        "firstName":"Revathi",
-        "lastName":"Chevuri",
-        "email":"revathi@gmail.com",
-        "mobile":"+919999999999",
-        "salary":"Best in Industry"
+      "id": 2,
+      "firstName": "Revathi",
+      "lastName": "Chevuri",
+      "email": "revathi@gmail.com",
+      "mobile": "+919999999999",
+      "salary": "7.2LPA"
     },
     {
-        "id":3,
-        "firstName":"Lakshmi",
-        "lastName":"Vinitha",
-        "email":"lakshmi@gmail.com",
-        "mobile":"+918888888888",
-        "salary":"Best in Industry"
+      "id": 3,
+      "firstName": "Lakshmi",
+      "lastName": "Vinitha",
+      "email": "lakshmi@gmail.com",
+      "mobile": "+918888888888",
+      "salary": "3.36LPA"
+    },
+    {
+      "id": 4,
+      "firstName": "Aakash",
+      "lastName": "Goyal",
+      "email": "aakash@gmail.com",
+      "mobile": "+919874561213",
+      "salary": "3.36LPA"
+    },
+    {
+      "id": 5,
+      "firstName": "Srivalli",
+      "lastName": "Raavi",
+      "email": "srivalli@gmail.com",
+      "mobile": "+919876543210",
+      "salary": "3.36LPA"
+    },
+    {
+      "id": 6,
+      "firstName": "Manoj",
+      "lastName": "Uppalapati",
+      "email": "manoj@gmail.com",
+      "mobile": "+911234567890",
+      "salary": "7.2LPA"
+    },
+    {
+      "id": 7,
+      "firstName": "Sakthivel",
+      "lastName": "Natarajan",
+      "email": "sakthivel@gmail.com",
+      "mobile": "+917410852963",
+      "salary": "7.2LPA"
+    },
+    {
+      "id": 8,
+      "firstName": "Alamelu",
+      "lastName": "Palaniappan",
+      "email": "alamelu@gmail.com",
+      "mobile": "+919638527410",
+      "salary": "7.2LPA"
+    },
+    {
+      "id": 9,
+      "firstName": "Snehitha",
+      "lastName": "Velivelli",
+      "email": "snehitha@gmail.com",
+      "mobile": "+917896541230",
+      "salary": "7.2LPA"
     }
   ]
 }

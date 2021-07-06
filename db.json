@@ -5,7 +5,9 @@
       "lastName": "Ragi",
       "email": "pranay@gmail.com",
       "mobile": "+917032393942",
-      "salary": "3.36LPA"
+      "salary": "3.36LPA",
+      "role":"Developer",
+      "gender": "Male"
     },
     {
       "id": 2,
@@ -13,7 +15,9 @@
       "lastName": "Chevuri",
       "email": "revathi@gmail.com",
       "mobile": "+919999999999",
-      "salary": "7.2LPA"
+      "salary": "7.2LPA",
+      "role":"Senior Developer",
+      "gender": "Female"
     },
     {
       "id": 3,
@@ -21,7 +25,9 @@
       "lastName": "Vinitha",
       "email": "lakshmi@gmail.com",
       "mobile": "+918888888888",
-      "salary": "3.36LPA"
+      "salary": "3.36LPA",
+      "role":"Developer",
+      "gender": "Female"
     },
     {
       "id": 4,
@@ -29,7 +35,9 @@
       "lastName": "Goyal",
       "email": "aakash@gmail.com",
       "mobile": "+919874561213",
-      "salary": "3.36LPA"
+      "salary": "3.36LPA",
+      "role":"Developer",
+      "gender": "Male"
     },
     {
       "id": 5,
@@ -37,7 +45,9 @@
       "lastName": "Raavi",
       "email": "srivalli@gmail.com",
       "mobile": "+919876543210",
-      "salary": "3.36LPA"
+      "salary": "3.36LPA",
+      "role":"Developer",
+      "gender": "Female"
     },
     {
       "id": 6,
@@ -45,7 +55,9 @@
       "lastName": "Uppalapati",
       "email": "manoj@gmail.com",
       "mobile": "+911234567890",
-      "salary": "7.2LPA"
+      "salary": "7.2LPA",
+      "role":"Senior Developer",
+      "gender": "Male"
     },
     {
       "id": 7,
@@ -53,7 +65,9 @@
       "lastName": "Natarajan",
       "email": "sakthivel@gmail.com",
       "mobile": "+917410852963",
-      "salary": "7.2LPA"
+      "salary": "7.2LPA",
+      "role":"Senior Developer",
+      "gender": "Male"
     },
     {
       "id": 8,
@@ -61,7 +75,9 @@
       "lastName": "Palaniappan",
       "email": "alamelu@gmail.com",
       "mobile": "+919638527410",
-      "salary": "7.2LPA"
+      "salary": "7.2LPA",
+      "role":"Senior Developer",
+      "gender": "Female"
     },
     {
       "id": 9,
@@ -69,7 +85,9 @@
       "lastName": "Velivelli",
       "email": "snehitha@gmail.com",
       "mobile": "+917896541230",
-      "salary": "7.2LPA"
+      "salary": "7.2LPA",
+      "role":"Senior Developer",
+      "gender": "Female"
     }
   ]
 }

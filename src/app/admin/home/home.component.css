@@ -1,12 +1,15 @@
 table{
     border: 1px solid black;
-    margin: 20px;
+    margin-top: 20px;
+    
  }
 
- td {
+ td,th {
     border: 1px solid black;
+     
  }
 
- td {
-    border: 1px solid black;
- }
+ th {
+   background-color: orange;
+   color: white;
+}

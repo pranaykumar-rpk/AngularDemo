@@ -1,24 +1,91 @@
 
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Material+Icons">
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons">
+    <link rel="stylesgeet" href="https://rawgit.com/creativetimofficial/material-kit/master/assets/css/material-kit.css">
+</head>
 
-<div class="container">
-    <div class="row profile">
-		<div class="col-md-3">
-			<div class="profile-sidebar">
-				
-				<div class="profile-userpic">
-					<img src="assets/profile.jpg" width="200" height="300"
-					class="img-responsive" alt="">
-				</div>
-				<div class="profile-usertitle">
-					<div class="profile-usertitle-name">
-						Admin
-					</div>
-					<div class="profile-usertitle-job">
-						TATA CONSULTANCY SERVICES
-					</div>
-				</div>
-			</div>
-		</div>
+
+<body class="profile-page">
+    <div class="page-header header-filter" data-parallax="true" ></div>
+    <div class="main main-raised">
+		<div class="profile-content">
+            <div class="container">
+                <div class="row">
+	                <div class="col-md-6 ml-auto mr-auto">
+        	           <div class="profile">
+	                        <div class="avatar">
+								<div *ngIf="employee.gender=='Male'; else female">
+									<img src="assets/male.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">	
+								  </div>
+								  
+								  <ng-template #female>
+									<img src="assets/female.jpg" alt="Circle Image" class="img-raised rounded-circle img-fluid">
+								  </ng-template>
+	                        </div>
+	                        <div class="name">
+	                            <h3 class="title">{{employee.firstName}} {{employee.lastName}}</h3>
+								<h6>{{employee.role}}</h6>
+								<a class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-dribbble"></i></a>
+                                <a class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
+                                <a class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-pinterest"></i></a>
+	                        </div>
+	                    </div>
+    	            </div>
+                </div>
+                <div class="description text-center">
+                    <p>An artist of considerable range, Chet Faker — the name taken by Melbourne-raised, Brooklyn-based Nick Murphy — writes, performs and records all of his own music, giving it a warm, intimate feel with a solid groove structure. </p>
+                </div>
+				<div class="row">
+					<div class="col-md-6 ml-auto mr-auto">
+                        <div class="profile-tabs">
+                          <ul class="nav nav-pills nav-pills-icons justify-content-center" role="tablist">
+                            <li class="nav-item">
+                                <a class="nav-link active"  role="tab" data-toggle="tab">
+                                  <i class="material-icons">mail</i>
+                                  {{employee.email}}
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active"  role="tab" data-toggle="tab">
+                                  <i class="material-icons">phone</i>
+                                    {{employee.mobile}}
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" role="tab" data-toggle="tab">
+                                  <i class="material-icons">monetization_on</i>
+                                    {{employee.salary}}
+                                </a>
+                            </li>
+                          </ul>
+                        </div>
+    	    	</div>
+            </div>
+        
+          <div class="tab-content tab-space">
+            <div class="tab-pane active text-center gallery" id="studio">
+  				
+  			</div>
+
+           
+          </div>
+
+        
+            </div>
+        </div>
 	</div>
-</div>
+	
+	
+  
+  <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
 
+
+   
+
+</body>
